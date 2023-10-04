@@ -1,0 +1,5 @@
+/runs/** filter=lfs diff=lfs merge=lfs -text
+runs/* filter=lfs diff=lfs merge=lfs -text
+runs/events.out.tfevents.1695949060.pawel-System-Product-Name.1541720.0 filter=lfs diff=lfs merge=lfs -text
+runs/events.out.tfevents.1696038293.pawel-System-Product-Name.496.0 filter=lfs diff=lfs merge=lfs -text
+runs/events.out.tfevents.1696335176.pawel-System-Product-Name.8002.0 filter=lfs diff=lfs merge=lfs -text
