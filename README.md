@@ -58,7 +58,7 @@ I used binary files of AirSim: MSBuild2018
 
 3. Dueling DQN VS DQN
 <p align="center">
-    <img src="/tensorboard_log/Dueling_DQNvsDQN.png" width="700" height="300">
+    <img src="/tensorboard_log/Dueling_DQNvsDQN-1.png" width="700" height="300">
    
 </p>
 
