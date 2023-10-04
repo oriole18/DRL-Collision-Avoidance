@@ -46,7 +46,7 @@ I used binary files of AirSim: MSBuild2018
 ![after2000epi](demo_after2000episode.gif)
 
 ### tensorboard result
-# goal_avg is probability of reached goal
+goal_avg is probability of reached goal
 1. DQN
 <p align="center">
     <img src="/tensorboard_log/DQN.png" width="700" height="300">
