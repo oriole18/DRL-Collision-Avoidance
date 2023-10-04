@@ -15,6 +15,10 @@ I used binary files of AirSim: MSBuild2018
 2. Dueling DQN
 
 ### Reward function 
+    if collision or out of map :
+        reward =-2
+    if goal :
+        reward = 2
     if heading of Quadrotor  is the right direction:
         distance_travelled
     else:
