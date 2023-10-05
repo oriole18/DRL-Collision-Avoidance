@@ -3,6 +3,7 @@ Quadrotor collision avoidance and reaching the goal point
 
 #### NOTE
 It's a Toy Project for studying RL
+
 It considers only a simple environment and a small map
 
 # Environment 
@@ -26,8 +27,11 @@ I used binary files of AirSim: MSBuild2018
 ### Parameter
 
 -Clockspeed:5.0
+
 -Command frequency: 20 hz
+
 -The agent's objectives are collision avoidance and reaching the goal point, so the agent's policy is sensitive
+
 -I solved this problem using the constraint MDP, setting alpha=0.6
 
 ### State
@@ -46,7 +50,8 @@ I used binary files of AirSim: MSBuild2018
 ![after2000epi](demo_after2000episode.gif)
 
 ### tensorboard result
-goal_avg is probability of reached goal
+#### The 'goal_avg' is the success rate per 100 episodes.
+if the agent reached the goal point 80 times, then the success rate is 80/100 = 0.8
 1. DQN
 <p align="center">
     <img src="/tensorboard_log/DQN.png" width="700" height="300">
